@@ -15,14 +15,14 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-public class ChessPanel extends JPanel {
+public class ChessView extends JPanel {
 
 	int originX = 50;
 	int originY = 45;
 	int cellSize = 60;
 	Map<String, Image> keyNameValueImage = new HashMap<String, Image>();
 	
-	public ChessPanel() {
+	public ChessView() {
 		String[] imgNames = {
 				"Bishop-black",
 				"Bishop-white",
